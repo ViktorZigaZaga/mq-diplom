@@ -553,17 +553,11 @@ body {
     display: flex;
 }
 
-.product_article {
-    align-content: center;
-    margin: 0 20px;
-}
-
 .product_article-preview {
     background-color: #eff6f1;
 }
 
 .product_article-info {
-    flex-grow: 1;
     outline: 3px solid #b59f5b;
     outline-offset: 20px;
     padding: 10px 0 10px 0;

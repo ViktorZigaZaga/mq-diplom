@@ -73,10 +73,10 @@
 /* ------- MAIN ------- */
 
 .main {
-    width: 66.5%;
+    width: 778px;
 }
 
-.news_article:nth-child(n+2) {
+.news_article-margin {
     margin-top: 60px;
 }
 
@@ -94,7 +94,7 @@
     margin-bottom: 40px;
 }
 
-.about > p {
+.about {
     font-size: 15px;
     line-height: 1.467;
 }
@@ -102,8 +102,8 @@
 /* ------- ASIDE ------- */
 
 .aside {
-    width: 23.25%;
-    margin-left: 10.25%;
+    width: 272px;
+    margin-left: 120px;
 }
 
 .aside-item {
@@ -115,11 +115,11 @@
 }
 
 .form-search-label {
-    width: 81.4%;
+    width: 222px;
 }
 
 .button {
-    width: 18.6%;
+    width: 50px;
 }
 
 /* -------PRODUCTS ------- */
@@ -132,14 +132,11 @@
 
 .product_article {
     width: 33.33%;
+    margin: 0 20px;
 }
 
-.product_article-content {
-    flex-flow: column wrap;
-}
-
-.product_article-content:nth-child(n + 1):nth-child(-n + 2) {
-    margin-right: 72px;
+.product_article-content-even, .product_article-content:first-child {
+    margin-right: 75px;
 }
 
 .product_article-name {

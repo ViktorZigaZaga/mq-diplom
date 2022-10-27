@@ -50,7 +50,7 @@
 .trends_article-trend {
     width: calc(50% - 4px);
     height: 245px;
-    background-color: red;
+    margin-bottom: 4px;
 }
 
 .trends_article-text{
@@ -73,14 +73,14 @@
 /* ------- MAIN ------- */
 
 .main {
-    width: 55.8%;
+    width: 391px;
 }
 
 .news_article {
     flex-direction: column;
 }
 
-.news_article:nth-child(n+2) {
+.news_article-margin {
     margin-top: 40px;
 }
 
@@ -106,7 +106,7 @@
     margin-bottom: 20px;
 }
 
-.about > p {
+.about {
     font-size: 15px;
     line-height: 1.467;
 }
@@ -114,8 +114,8 @@
 /* ------- ASIDE ------- */
 
 .aside {
-    width: 39%;
-    margin-left: 5.2%;
+    width: 272px;
+    margin-left: 36px;
 }
 
 .aside-item {
@@ -128,31 +128,28 @@
 }
 
 .form-search-label {
-    width: 81.4%;
+    width: 222px;
 }
 
 .button {
-    width: 18.6%;
+    width: 50px;
 }
 
 /* -------PRODUCTS ------- */
 
 .products {
     max-width: 698px;
-    margin: 0 auto 78px auto;
+    margin: 0 auto 22px auto;
     flex-flow: row wrap;
 }
 
 .product_article {
-    width: 40%;
+    width: 42%;
+    margin: 0 22px 55px 23px;
 }
 
-.product_article-content {
-    flex-flow: row wrap;
-}
-
-.product_article-content:nth-child(even) {
-    margin-left: 60px;
+.product_article-odd {
+    margin-right: 43px;
 }
 
 .product_article-name{
